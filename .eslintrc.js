@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    bowser: true,
+    browser: true,
     amd: true,
     node: true,
     es6: true,
@@ -11,9 +11,10 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
     'next',
-    'next/core-web-vitasl',
+    'next/core-web-vitals',
   ],
   rules: {
     'semi': ['error', 'always'],
+    'prettier/prettier': 0,
   }
 }
